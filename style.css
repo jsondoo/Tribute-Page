@@ -1,0 +1,113 @@
+.thin-black-border{
+	border-color:black;
+	border-width:4px;
+	border-style:solid;
+	border-radius:10px;
+}
+.block-display{
+	display:block;
+	text-align:center;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+#navbar{
+	height:40px;
+	top:0px;
+	left:0px;
+	position:fixed;
+	width:100%;
+	background-color:black;
+	z-index:500;
+	box-shadow: 3px 3px 25px 3px black;
+}
+nav ul{
+	margin:9px;
+	padding:5px 0 px 5 px 30px;
+}
+nav li{
+
+	display:inline;
+	margin:15px;
+}
+a{
+	color:white;
+	background-color:black;
+	text-decoration:none;
+}
+a:hover{
+	animation-name:color;
+	animation-duration:500ms;
+	animation-fill-mode:forwards;
+}
+
+@keyframes color{
+	100%{
+		color:#1589FF;
+	}
+}
+h1{
+	padding-top:30px;
+	font-family:Open Sans;
+	text-align:center;
+}
+body{
+	background:url('https://i.imgur.com/UNlhT6q.png');
+	font-family:Open Sans;
+}
+
+
+
+#image{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:50vh;
+	height:auto;
+
+}
+#caption{
+	padding-top:9px;
+	text-align:center;
+	text-decoration:underline;
+}
+span{
+	background-color:white;
+}
+#quote{
+	text-align:center;
+	
+}
+
+h2{
+	text-align:center;
+	padding-top: 2vw;
+	padding-left: 2vh;
+}
+
+#tribute-info{
+	text-align:center;
+	
+	
+}
+
+table, th, td{
+	border: 1px groove black;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5px 5px 5px 5px;
+}
+#awardsdesc{
+	padding-left:26vw;
+	padding-top:2vh;
+	text-align:center-left;
+}
+#referdesc{
+	text-align:center;
+}
+#tribute-link{
+	color:blue;
+	background-color:transparent;
+}
